@@ -5,11 +5,11 @@ function Buttons(props) {
     return (
         <View style = {styles.container}> 
             <TouchableHighlight
-        style={styles.submit}
-        onPress={() => this.submitSuggestion(this.props)}
-        underlayColor='#fff'>
-          <Text style={styles.submitText}>{props.name} </Text>
-      </TouchableHighlight>
+                style={styles.submit}
+                onPress={() => this.submitSuggestion(this.props)}
+                underlayColor='#fff'>
+                <Text style={styles.submitText}>{props.name} </Text>
+            </TouchableHighlight>
 
         </View>
 
